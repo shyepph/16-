@@ -1,0 +1,9 @@
+input_word = input("Введите слова: ")
+
+list_word = input_word.split()
+unique_word = set(list_word)
+count = len(unique_word)
+sorted_word = sorted(unique_word)
+
+print(f'Кол-во: {count}')
+print('Слова:', ' '.join(sorted_word))
